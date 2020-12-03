@@ -1,6 +1,12 @@
 {
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":0,},
+    {"id":{"name":"spr_player_stand","path":"sprites/spr_player_stand/spr_player_stand.yy",},"order":0,},
+    {"id":{"name":"spr_background2","path":"sprites/spr_background2/spr_background2.yy",},"order":1,},
+    {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":2,},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"order":1,},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":1,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
