@@ -44,7 +44,6 @@ if(vspeed > max_grav)
 	
 
 
-
 	
 
 if(pushed == false) 
