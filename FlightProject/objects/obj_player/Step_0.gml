@@ -6,14 +6,14 @@ if(pushed)
 if (keyboard_check(vk_right) and !instance_place(x+move_speed, y, obj_block)){
 		if(!instance_place(x+move_speed, y, obj_block) and !pushed)
 			x+= move_speed
-		image_xscale = 1
+		facing = 1
 		walking = true
 			
 } 
 else if(keyboard_check(vk_left) and !instance_place(x-move_speed, y, obj_block)) {
 		if(!instance_place(x-move_speed, y, obj_block) and !pushed)
 			x -= move_speed
-		image_xscale = -1
+		facing = -1
 		walking = true
 } else walking = false
 
@@ -23,7 +23,7 @@ if(keyboard_check(vk_up))
 		vspeed = jump_speed
 
 if(keyboard_check(vk_space)) {
-	if(image_xscale = 1)
+	if(facing)
 		shoot(x, y, 1, 2, 2)
 	else
 		shoot(x, y, -1,2, 2)
@@ -50,5 +50,7 @@ if(pushed == false)
 if(walking)
 	image_speed = 1
 else image_speed = 0
+
+image_xscale = facing
 
 
