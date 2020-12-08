@@ -22,11 +22,13 @@ if(keyboard_check(vk_up))
 	if(!instance_place(x, y-1, obj_block) and place_meeting(x, y + 1, obj_block))
 		vspeed = jump_speed
 
-if(keyboard_check(vk_space)) {
+if(keyboard_check(vk_space) and shootcool <= 0) {
 	if(facing)
 		shoot(x, y, 1, 2, 2)
 	else
 		shoot(x, y, -1,2, 2)
+		
+	shootcool=50
 }
 
 //gravity
@@ -53,4 +55,5 @@ else image_speed = 0
 
 image_xscale = facing
 
+shootcool--;
 

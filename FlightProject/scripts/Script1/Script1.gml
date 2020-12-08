@@ -15,12 +15,14 @@ function shoot(x, y, dir, numSpray, spread) {
 		dir = 180
 	var bullet = instance_create_layer(x, y, "Projectiles", obj_bullet)
 	bullet.direction = dir
-	bullet.image_angle = dir 
+	bullet.owner = self
 	for(i = 1; i <= numSpray; i++) {
 		bullet = instance_create_layer(x, y, "Projectiles", obj_bullet)
 		bullet.direction = dir + spread * i
+		bullet.owner = self
 		bullet = instance_create_layer(x, y, "Projectiles",obj_bullet)
 		bullet.direction = dir - spread * i
+		bullet.owner = self
 	}
 
 }
