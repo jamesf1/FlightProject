@@ -24,6 +24,17 @@ if(!(owner == other))
 	/// @DnDParent : 038C6085
 	instance_destroy();
 
+	/// @DnDAction : YoYo Games.Common.Function_Call
+	/// @DnDVersion : 1
+	/// @DnDHash : 4F7120EC
+	/// @DnDApplyTo : other
+	/// @DnDParent : 038C6085
+	/// @DnDArgument : "function" "push"
+	/// @DnDArgument : "arg" "other.hspeed/2"
+	with(other) {
+		push(other.hspeed/2);
+	}
+
 	/// @DnDAction : YoYo Games.Instance Variables.If_Health
 	/// @DnDVersion : 1
 	/// @DnDHash : 692FD54C
@@ -42,23 +53,5 @@ if(!(owner == other))
 		/// @DnDApplyTo : other
 		/// @DnDParent : 692FD54C
 		with(other) instance_destroy();
-	}
-
-	/// @DnDAction : YoYo Games.Common.Else
-	/// @DnDVersion : 1
-	/// @DnDHash : 6AC2CAE2
-	/// @DnDParent : 038C6085
-	else
-	{
-		/// @DnDAction : YoYo Games.Common.Function_Call
-		/// @DnDVersion : 1
-		/// @DnDHash : 4F7120EC
-		/// @DnDApplyTo : other
-		/// @DnDParent : 6AC2CAE2
-		/// @DnDArgument : "function" "push"
-		/// @DnDArgument : "arg" "other.hspeed/2"
-		with(other) {
-			push(other.hspeed/2);
-		}
 	}
 }
