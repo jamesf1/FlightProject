@@ -38,6 +38,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_cloud2","path":"objects/obj_cloud2/obj_cloud2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":557.0,"y":18.0,"resourceVersion":"1.0","name":"inst_16FB6BE5","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_cloud2","path":"objects/obj_cloud2/obj_cloud2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":493.0,"y":18.0,"resourceVersion":"1.0","name":"inst_6682E92F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_cloud2","path":"objects/obj_cloud2/obj_cloud2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":510.0,"y":-10.0,"resourceVersion":"1.0","name":"inst_2153649","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_music","path":"objects/obj_music/obj_music.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1248.0,"y":0.0,"resourceVersion":"1.0","name":"inst_1E81A5F","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Clouds","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Projectiles","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
@@ -330,6 +331,7 @@
     {"name":"inst_16FB6BE5","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6682E92F","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2153649","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_1E81A5F","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

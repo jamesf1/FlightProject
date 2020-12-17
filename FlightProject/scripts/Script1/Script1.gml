@@ -8,6 +8,7 @@ function push(dx)
 }
 
 function shoot(x, y, dir, numSpray, spread) {
+	audio_play_sound(snd_shoot,1, false)
 	push(dir * -5)
 	pushed = true
 	if(dir == 1)
